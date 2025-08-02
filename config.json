@@ -1,0 +1,10 @@
+{
+  "retroarch_path": "retroarch",
+  "systems": [
+    {
+      "name": "SNES",
+      "core": "PATH/TO/CORES/bsnes2014_balanced_libretro.so",
+      "roms": "PATH/TO/ROMS/nes/roms"
+    }
+  ]
+}
