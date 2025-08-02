@@ -5,9 +5,15 @@ Terminal user interface for launching games via Retroarch
 
 Download cores from within retroarch.
 
+### Features
+
+Search within roms to filter, add "/" before search for inclusive search.
+
 ###Setup 
 
 config.json with path to retroarch/cores/roms
+
+
 
 ```json
 {
@@ -15,20 +21,17 @@ config.json with path to retroarch/cores/roms
   "systems": [
     {
       "name": "SNES",
-      "core": "~/.config/retroarch/cores/snes9x_libretro.so",
-      "roms": "/mnt/Emulators/roms/snes/roms"
+      "core": "PATH/TO/CORES/snes9x_libretro.so",
+      "roms": "PATH/TO/ROMS"
     },
     {
       "name": "PlayStation",
-      "core": "~/.config/retroarch/cores/mednafen_psx_hw_libretro.so",
-      "roms": "/mnt/Emulators/roms/ps/roms",
+      "core": "PATH/TO/CORES/mednafen_psx_hw_libretro.so",
+      "roms": "PATH/TO/ROMS",
       "folder_mode": true
     }
   ]
 }
 
 
-### Features
-
-Search within roms to filter, add "/" before search for inclusive search.
 
